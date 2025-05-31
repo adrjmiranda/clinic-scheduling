@@ -6,6 +6,8 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 
+import ClinicForm from "./components/form";
+
 const ClinicFormPage = () => {
   return (
     <div>
@@ -18,6 +20,7 @@ const ClinicFormPage = () => {
                 Choose a name to your clinic.
               </DialogDescription>
             </DialogHeader>
+            <ClinicForm />
           </DialogContent>
         </form>
       </Dialog>
